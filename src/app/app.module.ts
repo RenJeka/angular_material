@@ -13,12 +13,14 @@ import { DynamicFormsMaterialUIModule } from '@ng-dynamic-forms/ui-material';
 import { AppComponent } from './app.component';
 import { MatTableOneComponent } from './mat-table-one/mat-table-one.component';
 import { DynamicFormsOneComponent } from './forms/dynamic-forms-one/dynamic-forms-one.component';
+import { TestComponent } from './test/test.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MatTableOneComponent,
-    DynamicFormsOneComponent
+    DynamicFormsOneComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,
